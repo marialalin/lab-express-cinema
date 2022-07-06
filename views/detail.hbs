@@ -1,11 +1,16 @@
+
+<a href="/movies" class="btn btn-info">Go back</a>
+<br>
+<br>
+
 <div>
-  <a href="/movies">Go back</a>
+  
 
   <img src="{{movie.image}}" alt="" />
   <h1>{{movie.title}}</h1>
 
   <h2>Director: {{movie.director}}</h2>
-  
+
   <h3>Stars</h3>
   {{#each movie.stars as |star|}}
     <li>{{star}}</li>
@@ -14,8 +19,7 @@
   <p>{{movie.description}}</p>
   <p>
     {{#each movie.showtimes as |hour|}}
-      {{showtime}}
-      |
+      {{hour}} | 
     {{/each}}
   </p>
 </div>
