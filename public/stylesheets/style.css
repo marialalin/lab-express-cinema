@@ -1,8 +1,25 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 50px; 
 }
 
 a {
   color: #00B7FF;
+}
+
+.cimenaimg {
+  background-image: url("../images/cinema.jpg");
+  background-position: center; 
+  background-size: cover;
+  height: 800px;
+
+}
+
+.main {
+  margin-right: 300px;
+}
+.title {
+  color: white;
+  font-size: 100px;
+  padding-bottom: 30px;
 }
